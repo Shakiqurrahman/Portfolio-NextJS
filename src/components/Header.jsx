@@ -11,12 +11,12 @@ const Header = () => {
         <h1 className="text-2xl font-bold">Portfolio</h1>
       </div>
       <ul className="md:flex hidden">
-        <li className="mr-14 text-[#727272] hover:text-white duration-300">
+        <li className="mr-14 text-[#bdbdbd] hover:text-white duration-300">
           <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
             Home
           </Link>
         </li>
-        <li className="mr-14 text-[#727272] hover:text-white duration-300">
+        <li className="mr-14 text-[#bdbdbd] hover:text-white duration-300">
           <Link
             className={`link ${pathname === "/about" ? "active" : ""}`}
             href="/about"
@@ -24,7 +24,7 @@ const Header = () => {
             About
           </Link>
         </li>
-        <li className="mr-14 text-[#727272] hover:text-white duration-300">
+        <li className="mr-14 text-[#bdbdbd] hover:text-white duration-300">
           <Link
             className={`link ${pathname === "/projects" ? "active" : ""}`}
             href="/projects"
@@ -32,7 +32,7 @@ const Header = () => {
             Projects
           </Link>
         </li>
-        <li className="mr-14 text-[#727272] hover:text-white duration-300">
+        <li className="mr-14 text-[#bdbdbd] hover:text-white duration-300">
           <Link
             className={`link ${pathname === "/contact" ? "active" : ""}`}
             href="/contact"

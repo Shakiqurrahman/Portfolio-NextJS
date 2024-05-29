@@ -21,12 +21,12 @@ const Footer = () => {
         />
       </div>
       <ul className="uppercase flex items-center justify-center xm:gap-11 gap-5 my-[35px]">
-        <li className="text-[12px] font-semibold text-[#727272] hover:text-white duration-300">
+        <li className="text-[12px] font-semibold text-[#bdbdbd] hover:text-white duration-300">
           <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
             Home
           </Link>
         </li>
-        <li className="text-[12px] font-semibold text-[#727272] hover:text-white duration-300">
+        <li className="text-[12px] font-semibold text-[#bdbdbd] hover:text-white duration-300">
           <Link
             className={`link ${pathname === "/about" ? "active" : ""}`}
             href="/about"
@@ -34,7 +34,7 @@ const Footer = () => {
             About
           </Link>
         </li>
-        <li className="text-[12px] font-semibold text-[#727272] hover:text-white duration-300">
+        <li className="text-[12px] font-semibold text-[#bdbdbd] hover:text-white duration-300">
           <Link
             className={`link ${pathname === "/projects" ? "active" : ""}`}
             href="/projects"
@@ -42,7 +42,7 @@ const Footer = () => {
             Projects
           </Link>
         </li>
-        <li className="text-[12px] font-semibold text-[#727272] hover:text-white duration-300">
+        <li className="text-[12px] font-semibold text-[#bdbdbd] hover:text-white duration-300">
           <Link
             className={`link ${pathname === "/contact" ? "active" : ""}`}
             href="/contact"
