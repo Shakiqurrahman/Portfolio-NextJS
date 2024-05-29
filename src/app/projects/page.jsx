@@ -14,11 +14,11 @@ const ProjectsPage = () => {
   return (
     <section className="max-width flex flex-col md:flex-row gap-6 mt-24">
       <div className="md:hidden flex justify-center items-center mb-3">
-        <Image className="md:w-auto w-7" src={star} alt="star icon" />
+        <Image className="md:w-auto w-7" placeholder="blur" src={star} alt="star icon" />
         <h1 className="uppercase sm:text-[40px] text-[25px] font-semibold mx-1.5">
           My Projects
         </h1>
-        <Image className="md:w-auto w-7" src={star} alt="star icon" />
+        <Image className="md:w-auto w-7" placeholder="blur" src={star} alt="star icon" />
       </div>
       <div className="md:w-1/3 flex flex-col">
         {/* Image-1  */}
@@ -26,6 +26,7 @@ const ProjectsPage = () => {
           <Image
             className="w-full rounded-[30px] mb-4"
             src={Image1}
+            placeholder="blur" 
             alt="Project 1"
           />
           <div className="flex justify-between items-center  mx-2">
@@ -57,6 +58,7 @@ const ProjectsPage = () => {
             className="w-full lg:h-[280px] xl:h-[292px] rounded-[30px] mb-4"
             src={Image2}
             alt="Project 1"
+            placeholder="blur" 
           />
           <div className="flex justify-between items-center   mx-2">
             <div>
@@ -81,11 +83,11 @@ const ProjectsPage = () => {
       </div>
       <div className="md:w-2/3">
         <div className="hidden md:flex justify-center items-center mb-5">
-          <Image className="md:w-auto w-7" src={star} alt="star icon" />
+          <Image className="md:w-auto w-7" placeholder="blur" src={star} alt="star icon" />
           <h1 className="uppercase lg:text-[60px] md:text-[40px] text-[25px] font-semibold mx-1.5">
             My Projects
           </h1>
-          <Image className="md:w-auto w-7" src={star} alt="star icon" />
+          <Image className="md:w-auto w-7" placeholder="blur" src={star} alt="star icon" />
         </div>
         <div className="wrapper grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* Image-3  */}

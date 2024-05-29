@@ -12,7 +12,7 @@ const AboutPage = () => {
     <>
       <div className="flex md:flex-row flex-col mt-20 gap-10">
         <div className="md:w-[400px] w-full overflow-hidden p-6 bg-[#202020] rounded-[30px] sm:mx-0 mx-auto ">
-          <Image src={AboutImg} alt="profile Image" className=" rounded-[30px] profile-img "/>
+          <Image src={AboutImg} alt="profile Image" placeholder="blur" className=" rounded-[30px] profile-img "/>
         </div>
         <SelfSummary />
       </div>
