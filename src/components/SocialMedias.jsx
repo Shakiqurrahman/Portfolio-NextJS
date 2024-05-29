@@ -9,14 +9,16 @@ const SocialMedias = () => {
         <a
           className="rounded-[50%] bg-[#ffffff09] border border-[#ffffff12] duration-300 p-5 hover:bg-white hover:text-black"
           href="https://www.facebook.com/shakqur.rahmankayum"
-          target="blank"
+          area-label="Facebook Link"
+          target="_blank"
         >
           <FaFacebookF size={25} />
         </a>
         <a
           className="rounded-[50%] bg-[#ffffff09] border border-[#ffffff12] duration-300 p-5 hover:bg-white hover:text-black"
           href="https://www.linkedin.com/in/shakiqurrahman/"
-          target="blank"
+          aria-label="Linkedin Profile"
+          target="_blank"
         >
           <FaLinkedinIn size={25} />
         </a>
@@ -24,9 +26,9 @@ const SocialMedias = () => {
       <a href="/contact" className="relative z-50">
         <div className="flex justify-between group">
           <div>
-            <h4 className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
+            <p className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
               Stay With me
-            </h4>
+            </p>
             <h2 className="font-medium text-xl">Profiles</h2>
           </div>
           <Image

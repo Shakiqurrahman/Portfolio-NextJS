@@ -1,6 +1,6 @@
-import { MdEmail, MdCall, MdLocationOn } from "react-icons/md";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { MdCall, MdEmail, MdLocationOn } from "react-icons/md";
 
 const ContactPage = () => {
   return (
@@ -58,6 +58,7 @@ const ContactPage = () => {
             <a
               href="https://www.facebook.com/shakqur.rahmankayum"
               target="blank"
+              area-label="Facebook Link"
             >
               <FaFacebookF />
             </a>
@@ -66,12 +67,17 @@ const ContactPage = () => {
             <a
               href="https://www.linkedin.com/in/shakiqurrahman/"
               target="blank"
+              area-label="Linkedin Link"
             >
               <FaLinkedinIn />
             </a>
           </div>
           <div className="w-16 h-16 rounded-full text-[32px] bg-[#ffffff09] border border-[#ffffff12] duration-300 hover:bg-white hover:text-black flex justify-center items-center">
-            <a href="https://www.instagram.com/retro_phile__/" target="blank">
+            <a
+              href="https://www.instagram.com/retro_phile__/"
+              target="blank"
+              area-label="Instagram Link"
+            >
               <FaInstagram />
             </a>
           </div>

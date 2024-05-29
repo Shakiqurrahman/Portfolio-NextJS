@@ -1,15 +1,17 @@
 import CVBox from "@/components/CVBox";
+import ClientBox from "@/components/ClientBox";
 import Credentials from "@/components/Credentials";
 import Profile from "@/components/Profile";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Slogan from "@/components/Slogan";
 import SocialMedias from "@/components/SocialMedias";
+import WorkTogether from "@/components/WorkTogether";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <main>
+    <section>
       <div className="flex md:flex-row flex-col mt-20 gap-6">
         <Profile />
         <div>
@@ -25,10 +27,10 @@ export default function Home() {
         <Skills />
         <SocialMedias />
       </div>
-      {/* <div className="mt-6 flex md:flex-row flex-col gap-6">
+      <div className="mt-6 flex md:flex-row flex-col gap-6">
         <ClientBox />
         <WorkTogether />
-      </div> */}
-    </main>
+      </div>
+    </section>
   );
 }

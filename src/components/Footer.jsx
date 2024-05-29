@@ -51,7 +51,7 @@ const Footer = () => {
           </Link>
         </li>
       </ul>
-      <p className="text-[#727272] text-center text-[14px]">
+      <p className="text-[#afafaf] text-center text-[14px]">
         © All rights reserved by{" "}
         <span className="text-[#5b78f6]">Shakiqur</span>
       </p>

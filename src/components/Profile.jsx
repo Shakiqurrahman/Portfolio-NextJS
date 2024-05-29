@@ -28,9 +28,9 @@ const Profile = () => {
         <Image src={Img} alt="profile Image" />
       </div>
       <div>
-        <h5 className=" uppercase opacity-70 text-[#bcbcbc] text-sm mb-1 tracking-wider">
+        <p className=" uppercase opacity-70 text-[#bcbcbc] text-[13px] mb-1 tracking-wider">
           A Web Developer
-        </h5>
+        </p>
         <h1 className="sm:text-4xl text-3xl font-medium mb-2">
           Shakiqur Rahman.
         </h1>

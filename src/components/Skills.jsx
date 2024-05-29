@@ -38,9 +38,9 @@ const Skills = () => {
       </div>
       <div className="flex justify-between">
         <div>
-          <h4 className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
+          <p className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
             My Skills
-          </h4>
+          </p>
           <h2 className="font-medium text-xl ">Specialization</h2>
         </div>
         <Image

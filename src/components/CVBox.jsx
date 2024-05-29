@@ -10,7 +10,7 @@ const CVBox = () => {
             <Image className='w-[140px] mx-auto' src={CVIcon} alt="CV Icon" />
             <div className='flex justify-between'>
                 <div>
-                <h4 className='uppercase text-[#BCBCBC] text-[13px] opacity-50 my-3'>Download My CV</h4>
+                <p className='uppercase text-[#BCBCBC] text-[13px] opacity-50 my-3'>Download My CV</p>
                 <h2 className='font-medium text-xl'>CV</h2>
                 </div >
                 <div className='tooltip  opacity-30 group-hover:opacity-100 relative top-5 right-5 duration-300'>

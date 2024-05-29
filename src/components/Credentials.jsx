@@ -10,9 +10,9 @@ const Credentials = () => {
         <Image className="w-full" src={sign} alt="signature image" />
         <div className="flex justify-between">
           <div>
-            <h4 className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
+            <p className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
               More About me
-            </h4>
+            </p>
             <h2 className="font-medium text-xl">Credentials</h2>
           </div>
           <Image

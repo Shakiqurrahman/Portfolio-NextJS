@@ -10,7 +10,7 @@ const Projects = () => {
             <Image className='w-full' src={myWorks} alt="myWorks image" />
             <div className='flex justify-between'>
                 <div>
-                <h4 className='uppercase text-[#BCBCBC] text-[13px] opacity-50 my-3'>Showcase</h4>
+                <p className='uppercase text-[#BCBCBC] text-[13px] opacity-50 my-3'>Showcase</p>
                 <h2 className='font-medium text-xl'>Projects</h2>
                 </div>
                 <Image className='opacity-20 group-hover:opacity-100 duration-300' src={icon} alt="icon image" />
