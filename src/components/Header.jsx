@@ -1,6 +1,10 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
+  const pathname = usePathname();
   return (
     <header className="flex items-center justify-between h-[80px]">
       <div>
@@ -8,16 +12,33 @@ const Header = () => {
       </div>
       <ul className="md:flex hidden">
         <li className="mr-14 text-[#727272] hover:text-white duration-300">
-          <Link href="/">Home</Link>
+          <Link className={`link ${pathname === "/" ? "active" : ""}`} href="/">
+            Home
+          </Link>
         </li>
         <li className="mr-14 text-[#727272] hover:text-white duration-300">
-          <Link href="/about">About</Link>
+          <Link
+            className={`link ${pathname === "/about" ? "active" : ""}`}
+            href="/about"
+          >
+            About
+          </Link>
         </li>
         <li className="mr-14 text-[#727272] hover:text-white duration-300">
-          <Link href="/projects">Projects</Link>
+          <Link
+            className={`link ${pathname === "/projects" ? "active" : ""}`}
+            href="/projects"
+          >
+            Projects
+          </Link>
         </li>
         <li className="mr-14 text-[#727272] hover:text-white duration-300">
-          <Link href="/contact">Contact</Link>
+          <Link
+            className={`link ${pathname === "/contact" ? "active" : ""}`}
+            href="/contact"
+          >
+            Contact
+          </Link>
         </li>
       </ul>
       <div className="bg-[#323232] hover:bg-white hover:text-black duration-300  font-medium px-7 py-3 rounded-2xl text-[16px]">
