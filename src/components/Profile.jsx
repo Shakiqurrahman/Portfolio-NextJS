@@ -22,10 +22,10 @@ const Profile = () => {
         className=" object-cover w-full h-full absolute left-0 top-0 opacity-10 rounded-[30px]"
         src={bgImg}
         alt="backgroound image"
-        placeholder="blur"
+
       />
       <div className="profile-img z-10 md:w-[340px] w-[220px] overflow-hidden bg-blue-300 sm:mx-0 mx-auto">
-        <Image src={Img} alt="profile Image" />
+        <Image src={Img} alt="profile Image" placeholder="blur"/>
       </div>
       <div>
         <p className=" uppercase opacity-70 text-[#bcbcbc] text-[13px] mb-1 tracking-wider">
