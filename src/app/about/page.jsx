@@ -1,5 +1,5 @@
 import Image from "next/image";
-import AboutImg from "@/../public/assets/about-img.jpeg";
+import AboutImg from "@/../public/assets/shakiqur.jpg";
 import SocialMedias from "@/components/SocialMedias";
 import Credentials from "@/components/Credentials";
 import SelfSummary from "@/components/SelfSummary";
