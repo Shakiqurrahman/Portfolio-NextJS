@@ -60,7 +60,7 @@ const Header = () => {
                 </Link>
             </ul>
             <div className="flex items-center gap-6">
-                <Link className="tracking-wider" href="/contact">
+                <Link className="tracking-wider" href="/contact" onClick={handleClose}>
                     <div className="bg-[#323232] hover:bg-white hover:text-black duration-300  font-medium px-5 sm:px-7 py-2 sm:py-3 rounded-lg sm:rounded-2xl text-[16px]">
                         Let's talk
                     </div>
