@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Shakiqur Rahman",
-  description: "Experienced web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
+  description: "Shakiqur Rahman, experienced web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
   keywords : "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer",
   robots : "index, follow"
 };
