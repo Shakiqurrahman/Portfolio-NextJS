@@ -207,7 +207,6 @@ a.active {
     right: 0;
     width: 100%;
     background: black;
-    /* transform: translateX(100%); */
     transition: all 0.4s ease-in-out;
     overflow: hidden;
     height: 0;
@@ -221,15 +220,14 @@ a.active {
     top: 80px;
     background: black;
     color: white;
-    /* transform: translateX(0%); */
     overflow: hidden;
     transition: all 0.4s ease-in-out;
   }
 
-  .side-nav li,
-  .nav-links li {
-    text-align: center;
-    font-size: 18px;
-    padding: 20px 0;
-  }
+    .side-nav li,
+    .nav-links li {
+      text-align: center;
+      font-size: 16px;
+      padding: 20px 0;
+    }
 }
