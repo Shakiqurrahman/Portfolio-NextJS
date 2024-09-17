@@ -7,7 +7,7 @@ const CredentialsCard = () => {
   return (
       <div className="p-7 flex flex-col items-center sticky top-[15%]  bg-[#202020] rounded-[30px]">
         <div className="profile-imgCard  z-10 md:w-[340px] w-[220px] overflow-hidden bg-blue-300 sm:mx-0 mx-auto">
-          <Image src={img} alt="profile Image" placeholder="blur" />
+          <Image src={img} alt="Shakiqur Rahman" placeholder="blur" />
         </div>
         <h1 className="sm:text-3xl text-2xl font-medium mt-8 mb-2">
           Shakiqur Rahman

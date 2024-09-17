@@ -25,7 +25,7 @@ const Profile = () => {
 
       />
       <div className="profile-img z-10 md:w-[340px] w-[220px] overflow-hidden bg-blue-300 sm:mx-0 mx-auto">
-        <Image src={Img} alt="profile Image" placeholder="blur"/>
+        <Image src={Img} alt="Shakiqur Rahman" placeholder="blur"/>
       </div>
       <div>
         <p className=" uppercase opacity-70 text-[#bcbcbc] text-[13px] mb-1 tracking-wider">
