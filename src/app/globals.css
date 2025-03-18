@@ -230,6 +230,6 @@ a.active {
 
   .side-nav li:first-child,
   .nav-links li:first-child {
-    padding: 0px 0 20px;
+    padding: 20px 0;
   }
 }
