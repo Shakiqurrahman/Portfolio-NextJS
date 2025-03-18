@@ -53,7 +53,7 @@ const Footer = () => {
       </ul>
       <p className="text-[#afafaf] text-center text-[14px]">
         © All rights reserved by{" "}
-        <span className="text-[#5b78f6]">Shakiqur</span>
+        <span className="text-[#5b78f6]">Shakiqur Rahman</span>
       </p>
     </div>
   );

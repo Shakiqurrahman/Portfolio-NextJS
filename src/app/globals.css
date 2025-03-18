@@ -12,7 +12,6 @@ body {
   margin: 0 auto;
   padding: 0 20px;
   overflow-x: hidden;
-  /* font-family: "Poppins", sans-serif; */
   color: #fff;
 }
 
@@ -227,5 +226,10 @@ a.active {
     text-align: center;
     font-size: 16px;
     padding: 20px 0;
+  }
+
+  .side-nav li:first-child,
+  .nav-links li:first-child {
+    padding: 0px 0 20px;
   }
 }

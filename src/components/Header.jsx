@@ -30,7 +30,7 @@ const Header = () => {
         className={
           isOpen
             ? "side-nav z-[999] md:flex md:gap-x-16"
-            : "nav-links  md:flex text-[15px]  z-[999] gap-x-16"
+            : "nav-links  md:flex  z-[999] gap-x-16"
         }
       >
         <Link

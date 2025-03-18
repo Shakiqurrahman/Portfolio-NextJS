@@ -14,7 +14,7 @@ const ClientBox = () => {
         </p>
       </div>
       <div className="px-[30px] py-[42px] text-center shadow-box flex-1">
-        <h1 className="text-[36px] mb-[17px] tracking-tighter">+50</h1>
+        <h1 className="text-[36px] mb-[17px] tracking-tighter">+40</h1>
         <p className="uppercase text-[#BCBCBC] text-[12px] opacity-50">
           Total <br /> Projects
         </p>
