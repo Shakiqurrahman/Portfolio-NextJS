@@ -1,39 +1,40 @@
-import Image from "next/image";
 import icon from "@/../public/assets/icon.svg";
+import Image from "next/image";
 
 import {
-  SiCss3,
-  SiHtml5,
-  SiJavascript,
-  SiReact,
-  SiTailwindcss,
+  SiNextdotjs,
+  SiNodedotjs,
+  SiPostgresql,
+  SiPrisma,
+  SiTypescript,
 } from "react-icons/si";
 
 const Skills = () => {
   return (
     <div className="p-6 rounded-[30px] flex-1 group shadow-box cursor-pointer">
-      <div className="flex items-center justify-center sm:px-8 px-6 sm:gap-[40px] xm:gap-6 gap-4 my-[45px]">
-        <div className="relative tooltip flex items-center justify-center">
-          <span className="tooltip-text">HTML</span>
-          <div className="absolute sm:w-[35px] w-[25px] sm:h-[32px] h-[25px] bg-white"></div>
-          <SiHtml5 color="#dd4b25" className="sm:text-5xl text-4xl z-10" />
-        </div>
-        <div className="relative tooltip flex items-center justify-center">
-          <span className="tooltip-text">CSS</span>
-          <div className="absolute sm:w-[35px] w-[25px] sm:h-[32px] h-[25px] bg-white"></div>
-          <SiCss3 color="#1278f0" className="sm:text-5xl text-4xl z-10" />
+      <div className="flex items-center justify-center md:gap-7 lg:gap-[40px] xm:gap-6 gap-4 my-[45px]">
+        <div className="tooltip">
+          <span className="tooltip-text">TypeScript</span>
+          <SiTypescript
+            color="#3178c6"
+            className="sm:text-5xl text-4xl bg-white rounded-md"
+          />
         </div>
         <div className="tooltip">
-          <span className="tooltip-text">Tailwind CSS</span>
-          <SiTailwindcss color="#38bdf8" className="sm:text-5xl text-4xl" />
+          <span className="tooltip-text">Next JS</span>
+          <SiNextdotjs color="#F8F3D9" className="sm:text-5xl text-4xl" />
+        </div>
+        <div className="tooltip md:hidden lg:block">
+          <span className="tooltip-text">Node JS</span>
+          <SiNodedotjs color="#58a149" className="sm:text-5xl text-4xl" />
         </div>
         <div className="tooltip">
-          <span className="tooltip-text">JavaScript</span>
-          <SiJavascript color="#efd81d" className="sm:text-5xl text-4xl" />
+          <span className="tooltip-text">Prisma</span>
+          <SiPrisma color="#1e9385" className="sm:text-5xl text-4xl" />
         </div>
         <div className="tooltip">
-          <span className="tooltip-text">React JS</span>
-          <SiReact color="#149eca" className="sm:text-5xl text-4xl" />
+          <span className="tooltip-text">PostgreSQL</span>
+          <SiPostgresql color="#396c94" className="sm:text-5xl text-4xl" />
         </div>
       </div>
       <div className="flex justify-between">
