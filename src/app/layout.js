@@ -13,6 +13,9 @@ export const metadata = {
   keywords:
     "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer, shafiqur, shafiqur rahman, shafi, shaki, shake, Shakib",
   robots: "index, follow",
+  other: {
+    "google-site-verification": "q9AFCs-x2BHfS4nEFdvM46f-WUlkxSwa68ca7nf6V3A",
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -20,13 +23,8 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <Head>
         <title>{metadata.title}</title>
-        <meta
-          name="google-site-verification"
-          content="q9AFCs-x2BHfS4nEFdvM46f-WUlkxSwa68ca7nf6V3A"
-        />
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
-        <meta name="robots" content={metadata.robots} />
         <meta name="robots" content={metadata.robots} />
         <script
           type="application/ld+json"
