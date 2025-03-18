@@ -19,33 +19,31 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <Head>
-        <Head>
-          <title>{metadata.title}</title>
-          <meta
-            name="google-site-verification"
-            content="q9AFCs-x2BHfS4nEFdvM46f-WUlkxSwa68ca7nf6V3A"
-          />
-          <meta name="description" content={metadata.description} />
-          <meta name="keywords" content={metadata.keywords} />
-          <meta name="robots" content={metadata.robots} />
-          <meta name="robots" content={metadata.robots} />
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{
-              __html: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Person",
-                name: "Shakiqur Rahman",
-                url: "https://shakiqur-rahman.vercel.app",
-                jobTitle: "Full Stack Web Developer",
-                worksFor: {
-                  "@type": "Organization",
-                  name: "DevIt BD",
-                },
-              }),
-            }}
-          />
-        </Head>
+        <title>{metadata.title}</title>
+        <meta
+          name="google-site-verification"
+          content="q9AFCs-x2BHfS4nEFdvM46f-WUlkxSwa68ca7nf6V3A"
+        />
+        <meta name="description" content={metadata.description} />
+        <meta name="keywords" content={metadata.keywords} />
+        <meta name="robots" content={metadata.robots} />
+        <meta name="robots" content={metadata.robots} />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              name: "Shakiqur Rahman",
+              url: "https://shakiqur-rahman.vercel.app",
+              jobTitle: "Full Stack Web Developer",
+              worksFor: {
+                "@type": "Organization",
+                name: "DevIt BD",
+              },
+            }),
+          }}
+        />
       </Head>
       <body>
         <main className={inter.className}>
