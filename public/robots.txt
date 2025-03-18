@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://shakiqur-rahman.vercel.app
+
+# Sitemaps
+Sitemap: https://shakiqur-rahman.vercel.app/sitemap.xml

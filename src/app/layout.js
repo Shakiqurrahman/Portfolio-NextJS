@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Shakiqur Rahman",
   description: "Shakiqur Rahman, experienced web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
-  keywords : "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer",
+  keywords : "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer, shafiqur, shafiqur rahman, shafi, shaki, shake, Shakib",
   robots : "index, follow"
 };
 
@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content={metadata.keywords} />
         <meta name="robots" content={metadata.robots} />
         <meta name="robots" content={metadata.robots} />
+        <meta name="google-site-verification" content="q9AFCs-x2BHfS4nEFdvM46f-WUlkxSwa68ca7nf6V3A" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -31,7 +32,7 @@ export default function RootLayout({ children }) {
               "@type": "Person",
               "name": "Shakiqur Rahman",
               "url": "https://shakiqur-rahman.vercel.app",
-              "jobTitle": "Web Developer",
+              "jobTitle": "Full Stack Web Developer",
               "worksFor": {
                 "@type": "Organization",
                 "name": "DevIt BD"
