@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import Image from "next/image";
 import bgImg from '@/../public/assets/bg1.png';
 import icon from "@/../public/assets/icon.svg";
-import Img from "@/../public/assets/shake-b&w.png";
+import Img from "@/../public/assets/profile.webp";
 
 const Profile = () => {
   const router = useRouter();

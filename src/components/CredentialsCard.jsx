@@ -1,4 +1,4 @@
-import img from "@/../public/assets/shake-b&.png";
+import img from "@/../public/assets/about-img.webp";
 import Image from "next/image";
 import Link from "next/link";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
