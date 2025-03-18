@@ -18,14 +18,14 @@ const Profile = () => {
       onClick={handleNavigate}
       className="group relative cursor-pointer flex-1  flex sm:flex-row flex-col sm:items-center sm:px-[46px] px-8 sm:py-[50px] py-8 gap-[30px] shadow-box rounded-[30px] md:w-[450px] w-full"
     >
-      <Image
+      {/* <Image
         className=" object-cover w-full h-full absolute left-0 top-0 opacity-10 rounded-[30px]"
         src={bgImg}
         alt="backgroound image"
 
-      />
+      /> */}
       <div className="profile-img z-10 md:w-[340px] w-[220px] overflow-hidden bg-blue-300 sm:mx-0 mx-auto">
-        <Image src={Img} alt="Shakiqur Rahman" placeholder="blur"/>
+        <Image src={Img} alt="Shakiqur Rahman" priority/>
       </div>
       <div>
         <p className=" uppercase opacity-70 text-[#bcbcbc] text-[13px] mb-1 tracking-wider">

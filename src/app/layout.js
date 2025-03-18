@@ -13,9 +13,6 @@ export const metadata = {
   keywords:
     "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer, shafiqur, shafiqur rahman, shafi, shaki, shake, Shakib",
   robots: "index, follow",
-  other: {
-    "google-site-verification": "q9AFCs-x2BHfS4nEFdvM46f-WUlkxSwa68ca7nf6V3A",
-  },
 };
 
 export default function RootLayout({ children }) {
