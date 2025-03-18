@@ -1,5 +1,6 @@
-import Image from "next/image";
 import star from "@/../public/assets/star.png";
+import star2 from "@/../public/assets/star2.png";
+import Image from "next/image";
 
 const SelfSummary = () => {
   return (
@@ -12,6 +13,7 @@ const SelfSummary = () => {
         <Image className="md:w-auto w-7" src={star} alt="star icon" />
       </div>
       <div className="bg-[#202020] rounded-[30px] p-7 pr-10 h-full flex flex-col justify-end shadow-box">
+        <Image src={star2} alt="icon of star" className="absolute top-0" />
         <h3 className="text-[34px] font-medium mb-1">Shakiqur Rahman</h3>
         <p className=" opacity-80">
           I'm a professional Web Developer with several years of experience
