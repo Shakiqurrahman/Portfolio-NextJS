@@ -1,29 +1,30 @@
 import icon from "@/../public/assets/icon.svg";
 import Image from "next/image";
+import Link from "next/link";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const SocialMedias = () => {
   return (
     <div className="p-6 rounded-[30px] shadow-box">
       <div className="flex border border-[#ffffff12] justify-center items-center bg-[#ffffff09] rounded-[30px] gap-5 mb-4 p-7 relative z-50">
-        <a
+        <Link
           className="rounded-[50%] bg-[#ffffff09] border border-[#ffffff12] duration-300 p-5 hover:bg-white hover:text-black"
           href="https://www.facebook.com/shakqur.rahmankayum"
-          area-label="Facebook Link"
+          aria-label="Visit my Facebook profile"
           target="_blank"
         >
           <FaFacebookF size={25} />
-        </a>
-        <a
+        </Link>
+        <Link
           className="rounded-[50%] bg-[#ffffff09] border border-[#ffffff12] duration-300 p-5 hover:bg-white hover:text-black"
           href="https://www.linkedin.com/in/shakiqurrahman/"
-          aria-label="Linkedin Profile"
+          aria-label="Visit my LinkedIn profile"
           target="_blank"
         >
           <FaLinkedinIn size={25} />
-        </a>
+        </Link>
       </div>
-      <a href="/contact" className="relative z-50">
+      <Link href="/contact" className="relative z-50">
         <div className="flex justify-between group">
           <div>
             <p className="uppercase text-[#BCBCBC] text-[13px] opacity-50  my-3">
@@ -37,7 +38,7 @@ const SocialMedias = () => {
             alt="icon image"
           />
         </div>
-      </a>
+      </Link>
     </div>
   );
 };

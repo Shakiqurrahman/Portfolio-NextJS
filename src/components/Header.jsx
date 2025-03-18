@@ -23,9 +23,9 @@ const Header = () => {
   }, [isOpen]);
   return (
     <header className="flex items-center justify-between h-[80px]">
-      <div>
+      <Link href={"/"}>
         <h1 className="text-2xl font-bold">Portfolio</h1>
-      </div>
+      </Link>
       <ul
         className={
           isOpen
@@ -33,45 +33,63 @@ const Header = () => {
             : "nav-links  md:flex  z-[999] gap-x-16"
         }
       >
-        <Link
-          className={`link ${
-            pathname === "/" ? "active" : ""
-          } text-[#bdbdbd] hover:text-white duration-300`}
-          href="/"
-          onClick={handleClose}
-        >
-          <li>Home</li>
-        </Link>
-        <Link
-          className={`link ${
-            pathname === "/about" ? "active" : ""
-          } text-[#bdbdbd] hover:text-white duration-300`}
-          href="/about"
-          onClick={handleClose}
-        >
-          <li>About</li>
-        </Link>
-        <Link
-          className={`link ${
-            pathname === "/projects" ? "active" : ""
-          } text-[#bdbdbd] hover:text-white duration-300`}
-          href="/projects"
-          onClick={handleClose}
-        >
-          <li>Projects</li>
-        </Link>
-        <Link
-          className={`link ${
-            pathname === "/contact" ? "active" : ""
-          } text-[#bdbdbd] hover:text-white duration-300`}
-          href="/contact"
-          onClick={handleClose}
-        >
-          <li>Contact</li>
-        </Link>
+        <li>
+          <Link
+            className={`link ${
+              pathname === "/" ? "active" : ""
+            } text-[#bdbdbd] hover:text-white duration-300 block`}
+            href="/"
+            onClick={handleClose}
+            aria-label="Visit Home Page"
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={`link ${
+              pathname === "/about" ? "active" : ""
+            } text-[#bdbdbd] hover:text-white duration-300 block`}
+            href="/about"
+            aria-label="Visit About Page"
+            onClick={handleClose}
+          >
+            About
+          </Link>
+        </li>
+        <li>
+          <Link
+            className={`link ${
+              pathname === "/projects" ? "active" : ""
+            } text-[#bdbdbd] hover:text-white duration-300 block`}
+            href="/projects"
+            aria-label="Visit Projects Page"
+            onClick={handleClose}
+          >
+            Projects
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link
+            className={`link ${
+              pathname === "/contact" ? "active" : ""
+            } text-[#bdbdbd] hover:text-white duration-300 block`}
+            href="/contact"
+            onClick={handleClose}
+            aria-label="Visit Contact Page"
+          >
+            Contact
+          </Link>
+        </li>
       </ul>
       <div className="flex items-center gap-6">
-        <Link className="tracking-wider" href="/contact" onClick={handleClose}>
+        <Link
+          className="tracking-wider"
+          href="/contact"
+          onClick={handleClose}
+          aria-label="Visit Contact Page"
+        >
           <div className="bg-[#323232] hover:bg-white hover:text-black duration-300  font-medium px-5 sm:px-7 py-2 sm:py-3 rounded-lg sm:rounded-xl text-[16px]">
             Let's talk
           </div>

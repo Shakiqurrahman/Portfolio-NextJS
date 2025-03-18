@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { MdCall, MdEmail, MdLocationOn } from "react-icons/md";
@@ -47,39 +48,39 @@ const ContactPage = () => {
             <p className="text-[14px] text-[#BCBCBC] opacity-50 uppercase mb-1">
               Location
             </p>
-            <a className="text-white opacity-80 font-semibold text-[14px]">
+            <p className="text-white opacity-80 font-semibold text-[14px]">
               Sylhet, Bangladesh
-            </a>
+            </p>
           </span>
         </div>
         <h3 className="mb-7 uppercase font-semibold">Social Info</h3>
         <div className="flex gap-6">
           <div className="w-16 h-16 rounded-full text-[32px] bg-[#ffffff09] border border-[#ffffff12] duration-300 hover:bg-white hover:text-black flex justify-center items-center">
-            <a
+            <Link
               href="https://www.facebook.com/shakqur.rahmankayum"
               target="blank"
-              area-label="Facebook Link"
+              aria-label="Facebook Link"
             >
               <FaFacebookF />
-            </a>
+            </Link>
           </div>
           <div className="w-16 h-16 rounded-full text-[32px] bg-[#ffffff09] border border-[#ffffff12] duration-300 hover:bg-white hover:text-black flex justify-center items-center">
-            <a
+            <Link
               href="https://www.linkedin.com/in/shakiqurrahman/"
               target="blank"
-              area-label="Linkedin Link"
+              aria-label="Linkedin Link"
             >
               <FaLinkedinIn />
-            </a>
+            </Link>
           </div>
           <div className="w-16 h-16 rounded-full text-[32px] bg-[#ffffff09] border border-[#ffffff12] duration-300 hover:bg-white hover:text-black flex justify-center items-center">
-            <a
+            <Link
               href="https://www.instagram.com/retro_phile__/"
               target="blank"
-              area-label="Instagram Link"
+              aria-label="Instagram Link"
             >
               <FaInstagram />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -221,15 +221,10 @@ a.active {
     transition: all 0.4s ease-in-out;
   }
 
-  .side-nav li,
-  .nav-links li {
+  .side-nav li a,
+  .nav-links li a {
     text-align: center;
     font-size: 16px;
-    padding: 20px 0;
-  }
-
-  .side-nav li:first-child,
-  .nav-links li:first-child {
     padding: 20px 0;
   }
 }
