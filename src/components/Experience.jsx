@@ -6,14 +6,14 @@ const Experience = () => {
         <p className="mb-3 text-[#BCBCBC] opacity-60 font-medium">
           2022 - 2024
         </p>
-        <h2 className="text-lg opacity-90 mb-1.5">Front-End Web Developer</h2>
+        <h2 className="text-lg opacity-90 mb-1.5">MERN Stack Developer</h2>
         <p className="mb-3 text-[15px] text-[#BCBCBC] opacity-60">DevIT BD</p>
       </div>
       <div className="mt-8">
         <p className="mb-3 text-[#BCBCBC] opacity-60 font-medium">
           2024 - Present
         </p>
-        <h2 className="text-lg opacity-90 mb-1.5">Full Stack Web Developer</h2>
+        <h2 className="text-lg opacity-90 mb-1.5">Full Stack Developer</h2>
         <p className="mb-3 text-[15px] text-[#BCBCBC] opacity-60">Flytech IT</p>
       </div>
     </div>

@@ -3,7 +3,7 @@ const Education = () => {
     <div className="p-[30px] rounded-[30px] shadow-box flex-1">
       <h3 className="uppercase mb-5 font-medium text-lg">Education</h3>
       <div>
-        <p className="mb-3 text-[#BCBCBC] opacity-60 font-medium">2019</p>
+        <p className="mb-3 text-[#BCBCBC] opacity-60 font-medium">2020</p>
         <h2 className="text-lg opacity-90 mb-1.5">
           Secondary School Certificate (SSC)
         </h2>
