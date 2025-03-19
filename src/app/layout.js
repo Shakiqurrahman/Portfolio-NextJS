@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Shakiqur Rahman",
   description:
-    "Shakiqur Rahman, experienced web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
+    "Shakiqur Rahman, experienced full stack web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
   keywords:
-    "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer, shafiqur, shafiqur rahman, shafi, shaki, shake, Shakib",
+    "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer, shafiqur, shafiqur rahman, shafi, shaki, shake, Shakib, web developer, web developer shakiqur, developer shakiqur, software developer shakiqur, Shafiqur Rahman, Shafiqur, Shafi, shakiqur-rahman, shakiqur-, Shakiqur-Rahman, শাকিকুর রহমান, শাকিকুর , রহমান ,শাকিলুর রহমান,শাকিলুর",
   robots: "index, follow",
 };
 
