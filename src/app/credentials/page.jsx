@@ -2,7 +2,7 @@ import CredentialsCard from "@/components/CredentialsCard";
 
 const page = () => {
   return (
-    <section className="mt-20 flex gap-20">
+    <section className="mt-20 flex gap-20 flex-col md:flex-row">
       <div>
         <CredentialsCard />
       </div>

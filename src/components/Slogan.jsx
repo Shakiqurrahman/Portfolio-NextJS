@@ -1,9 +1,21 @@
 const Slogan = () => {
   return (
-    <div className="px-[15px] py-[17px] mb-[24px] shadow-box rounded-[30px]">
+    <div className="px-[10px] py-[17px] mb-[24px] shadow-box rounded-[30px]">
       <div className="marquee relative overflow-hidden h-[19px] w-full max-h-full">
         <div>
-          <span className="text-[13px] text-[#BCBCBC] mr-7">
+          <span className="text-[13px] text-[#BCBCBC] mr-[20px]">
+            If you're looking for a web developer who's passionate about
+            creating high-quality websites that meet your unique needs, then
+            let's connect!
+          </span>
+          <span className="mr-[20px]">||</span>
+          <span className="text-[13px] text-[#BCBCBC] mr-[20px]">
+            If you're looking for a web developer who's passionate about
+            creating high-quality websites that meet your unique needs, then
+            let's connect!
+          </span>
+          <span className="mr-[20px]">||</span>
+          <span className="text-[13px] text-[#BCBCBC] mr-[20px]">
             If you're looking for a web developer who's passionate about
             creating high-quality websites that meet your unique needs, then
             let's connect!

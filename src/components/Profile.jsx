@@ -1,10 +1,9 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import Image from "next/image";
-import bgImg from '@/../public/assets/bg1.png';
 import icon from "@/../public/assets/icon.svg";
 import Img from "@/../public/assets/profile.webp";
+import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 const Profile = () => {
   const router = useRouter();
@@ -12,7 +11,7 @@ const Profile = () => {
   const handleNavigate = () => {
     router.push("/about");
   };
-  
+
   return (
     <div
       onClick={handleNavigate}
@@ -25,13 +24,13 @@ const Profile = () => {
 
       /> */}
       <div className="profile-img z-10 md:w-[340px] w-[220px] overflow-hidden bg-blue-300 sm:mx-0 mx-auto">
-        <Image src={Img} alt="Shakiqur Rahman" priority/>
+        <Image src={Img} alt="Shakiqur Rahman" priority />
       </div>
       <div>
         <p className=" uppercase opacity-70 text-[#bcbcbc] text-[13px] mb-1 tracking-wider">
           A Web Developer
         </p>
-        <h1 className="sm:text-4xl text-3xl font-medium mb-2">
+        <h1 className="sm:text-4xl text-[26px] font-medium mb-2">
           Shakiqur Rahman.
         </h1>
         <p className="text-[#bcbcbc] text-sm w-[70%] sm:w-full  mb-5">

@@ -3,12 +3,12 @@ import Link from "next/link";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
 import Image5 from "@/../public/assets/College website mockup.jpg";
+import Image3 from "@/../public/assets/crypto-wave.jpg";
 import Image4 from "@/../public/assets/Hoobank mockup.jpg";
 import Image6 from "@/../public/assets/img5.jpg";
 import Image7 from "@/../public/assets/Little Rabbit Mockup.jpg";
 import Image1 from "@/../public/assets/patagoniaexplore.jpg";
 import Image2 from "@/../public/assets/shofy e-commerce.jpg";
-import Image3 from "@/../public/assets/crypto-wave.jpg";
 import star from "@/../public/assets/star.png";
 
 const ProjectsPage = () => {
@@ -43,7 +43,7 @@ const ProjectsPage = () => {
             />
             <div className="flex justify-between items-center  mx-2">
               <div>
-                <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+                <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                   Travel Agency Website
                 </p>
                 <h1 className="text-[22px] opacity-90 font-medium">
@@ -74,7 +74,7 @@ const ProjectsPage = () => {
             />
             <div className="flex justify-between items-center   mx-2">
               <div>
-                <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+                <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                   E-commerce Website
                 </p>
                 <h1 className="text-[22px] opacity-90 font-medium">Shoffy</h1>
@@ -124,18 +124,24 @@ const ProjectsPage = () => {
               />
               <div className="flex justify-between items-center   mx-2">
                 <div>
-                  <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+                  <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                     Crypto Marketing Website
                   </p>
                   <h1 className="text-[22px] opacity-90 font-medium">
-                   Crypto Wave Agency
+                    Crypto Wave Agency
                   </h1>
                 </div>
                 <span className="flex gap-6 items-center  ">
-                  <Link href="https://github.com/Shakiqurrahman/Crypto-Wave-Agency" target="_blank">
+                  <Link
+                    href="https://github.com/Shakiqurrahman/Crypto-Wave-Agency"
+                    target="_blank"
+                  >
                     <FaGithub className="text-[26px] opacity-70 hover:opacity-100 duration-300" />
                   </Link>
-                  <Link href="https://crypto-wave-agency.netlify.app/" target="_blank">
+                  <Link
+                    href="https://crypto-wave-agency.netlify.app/"
+                    target="_blank"
+                  >
                     <FaExternalLinkAlt className="text-[23px] opacity-70 hover:opacity-100 duration-300" />
                   </Link>
                 </span>
@@ -151,7 +157,7 @@ const ProjectsPage = () => {
               />
               <div className="flex justify-between items-center  mx-2">
                 <div>
-                  <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+                  <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                     Banking Website
                   </p>
                   <h1 className="text-[22px] opacity-90 font-medium">
@@ -184,7 +190,7 @@ const ProjectsPage = () => {
               />
               <div className="flex justify-between items-center  mx-2">
                 <div>
-                  <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+                  <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                     College Website
                   </p>
                   <h1 className="text-[22px] opacity-90 font-medium">
@@ -214,7 +220,7 @@ const ProjectsPage = () => {
               />
               <div className="flex justify-between items-center  mx-2">
                 <div>
-                  <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+                  <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                     Ecommerce Ui
                   </p>
                   <h1 className="text-[22px] opacity-90 font-medium">
@@ -250,7 +256,7 @@ const ProjectsPage = () => {
           />
           <div className="flex justify-between items-center   mx-2">
             <div>
-              <p className="opacity-60 text-[13px] text-[#bcbcbc] uppercase font-thin">
+              <p className="opacity-60 text-[12px] text-[#bcbcbc] uppercase font-light">
                 Crypto Website
               </p>
               <h1 className="text-[22px] opacity-90 font-medium">

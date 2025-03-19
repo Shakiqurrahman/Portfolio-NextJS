@@ -101,7 +101,7 @@ a.active {
   white-space: nowrap;
   will-change: transform;
   font-size: 12px;
-  animation: marquee 8s linear infinite;
+  animation: marquee 20s linear infinite;
 }
 
 @keyframes marquee {

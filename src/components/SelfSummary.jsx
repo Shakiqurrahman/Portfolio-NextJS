@@ -12,10 +12,10 @@ const SelfSummary = () => {
         </h1>
         <Image className="md:w-auto w-7" src={star} alt="star icon" />
       </div>
-      <div className="bg-[#202020] rounded-[30px] p-7 pr-10 h-full flex flex-col justify-end shadow-box">
+      <div className="bg-[#202020] rounded-[30px] p-7 sm:pr-10 h-full flex flex-col justify-end shadow-box">
         <Image src={star2} alt="icon of star" className="absolute top-0" />
-        <h3 className="text-[34px] font-medium mb-1">Shakiqur Rahman</h3>
-        <p className=" opacity-80">
+        <h3 className="text-[26px] sm:text-[34px] font-medium mb-1 mt-14">Shakiqur Rahman</h3>
+        <p className="opacity-80">
           I'm a professional Web Developer with several years of experience
           creating dynamic, responsive, and user-friendly websites. I have a
           diverse range of experience having worked across various fields and
