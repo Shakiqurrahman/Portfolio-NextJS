@@ -12,6 +12,13 @@ export const metadata = {
     "Shakiqur Rahman, experienced full stack web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
   keywords:
     "shakiqur, shakiqur rahman, shakiqur portfolio, shakiqur's portfolio, shakiqur rahman's portfolio, shakiqur web developer, web developer, web development, software developer, developer, shafiqur, shafiqur rahman, shafi, shaki, shake, Shakib, web developer, web developer shakiqur, developer shakiqur, software developer shakiqur, Shafiqur Rahman, Shafiqur, Shafi, shakiqur-rahman, shakiqur-, Shakiqur-Rahman, শাকিকুর রহমান, শাকিকুর , রহমান ,শাকিলুর রহমান,শাকিলুর",
+  openGraph: {
+    title: "Shakiqur Rahman",
+    description:
+      "Shakiqur Rahman, experienced full stack web developer specializing in responsive website design, front-end development, and web application solutions. Building modern, high-performance websites tailored to your business needs.",
+    siteName: "Shakiqur Rahman",
+    type: "website",
+  },
   robots: "index, follow",
 };
 
@@ -21,6 +28,7 @@ export default function RootLayout({ children }) {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <meta property="og:title" content="Shakiqur Rahman" />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="robots" content={metadata.robots} />
         <script
